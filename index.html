@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form>
+      <label for="isim">Enter your firstName and lastNAme:</label>
+      <input type="text" id="isim" placeholder="ornek Ornek" /><br />
+      <label for="mail">Enter your mail adress :</label>
+      <input type="mail" id="mail" placeholder="ornek@gmail.com" /><br />
+      <label for="şifre">Enter your password: </label>
+      <input type="password" id="şifre" placeholder="Password" /><br />
+      <button type="submit">Gönder</button>
+      <button type="reset">All delete :P</button>
+      <hr />
+      <h4>Choose gender</h4>
+      Woman
+      <input type="radio" name="cinsiyet" id="kadin" /><br />
+      Man
+      <input type="radio" name="cinsiyet" id="erkek" /><br />
+      I do not want to indicate
+      <input type="radio" name="cinsiyet" id="belirtmemis" /><br />
+      <hr />
+      <h4>Medeni hali</h4>
+      bekar
+      <input type="checkbox" name="medeni_durum" id="" , value="bekar" checked/><br />
+      evli
+      <input type="checkbox" name="medeni_durum" id="" value="evli" /><br />
+      boşanmış
+      <input type="checkbox" name="medeni_durum" id="" value="bosanmıs" /><br />
+      Eğitim durumu
+      <select name="egitim_durumu" id="egitim_durumu">
+        <option value="lise">Lise</option>
+        <option value="önlisans">ÖnLisans</option>
+        <option value="lisans" selected>Lisans</option>
+        <option value="yukseklisans">Yükseklisans</option>
+      </select>
+      <hr>
+      <h4>Görüşleriniz için bize ulaşın</h4>
+      <textarea name="kullanici_istekleri" id="" cols="120" rows="10" placeholder="Bize ulaşın"></textarea>
+    </form>
+  </body>
+</html>
