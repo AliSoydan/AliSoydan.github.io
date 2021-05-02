@@ -1,7 +1,9 @@
 # AliSoydan.github.io
 
+
 <details>
-   <summary>Java Dili ve Platform Özellikleri</summary>
+  <summary>Java Dili ve Platform Özellikleri</summary><br>
+  
   ![java çalışması](https://user-images.githubusercontent.com/58303745/116801430-1170bd80-ab1b-11eb-8b84-3fb932a690eb.jpg)
   <hr>
   
